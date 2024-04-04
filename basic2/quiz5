@@ -1,0 +1,5 @@
+#!/bin/sh
+touch notes.txt
+echo -e "Line 1\n Line 2\n Line 3\n" >> notes.txt
+cat notes.txt
+rm notes.txt
